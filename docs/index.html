@@ -58,10 +58,10 @@
         // Avoid draining fillrate performance on mobile devices,
         // and default/override low DPI mode on mobile browsers.
         config.devicePixelRatio = 1;
-        mobileWarning.style.display = "block";
-        setTimeout(() => {
-          mobileWarning.style.display = "none";
-        }, 5000);
+        //mobileWarning.style.display = "block";
+        //setTimeout(() => {
+        //  mobileWarning.style.display = "none";
+        //}, 5000);
       } else {
         canvas.style.width = "100%";
         canvas.style.height = "100%";
@@ -79,7 +79,7 @@
           //  unityInstance.SetFullscreen(1);
           //};
         }).catch((message) => {
-          alert(message);
+          //alert(message);
         });
       };
       document.body.appendChild(script);

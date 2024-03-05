@@ -13,7 +13,7 @@ A turn immediately ends upon its last move being used up, but before the turn pl
 **• Penalty**  
 When a turn ends, the turn player is deducted 3 points if they did not flip up or remove any piece in that turn.  
 **• Foul**  
-When a turn ends, the turn player immediately loses and is removed from the game if they have ≤7 points, or played 6 moves in that turn without flipping up and removing any piece.  
+When a turn ends, the turn player immediately loses and is removed from the game if they have ≤-7 points, or played 6 moves in that turn without flipping up and removing any piece.  
 **• Piece Removal and Points**  
 If 3 or 4 pieces of the same type are connected, they are removed. If the last piece of a type is moved to a different point, it is also removed. When a move results in x pieces being removed, the turn player gains x points if x≤3, (2x-3) points otherwise.  
 **• End of the Game**  

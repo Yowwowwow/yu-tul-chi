@@ -17,4 +17,6 @@ When a turn ends, the turn player immediately loses and is removed from the game
 **• Piece Removal and Points**  
 If 3 or 4 pieces of the same type are connected, they are removed. If the last piece of a type is moved to a different point, it is also removed. When a move results in x pieces being removed, the turn player gains x points if x≤3, (2x-3) points otherwise.  
 **• End of the Game**  
-When all pieces are removed or there is only 1 player remaining, the game ends, and the players with the most points win.
+When all pieces are removed or there is only 1 player remaining, the game ends, and the players with the most points win.  
+
+**Note: the in-game tutorial says a player loses if they have ≤7 points when they end their turn; this is wrong. A player only loses if they have ≤-7 points when they end their turn.**
